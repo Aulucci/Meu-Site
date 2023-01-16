@@ -1,11 +1,27 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(0, 0, 0);
-    color: white;
+    
+}
+body{
+    background-color: rgb(238, 209, 154);
+    
 }
 #foto{
     border-radius: 30%;
+    margin: auto;
 }
+main{
+    background-color: rgba(255, 255, 255, 0.719);
+    margin: auto;
+    text-align: justify;
+    max-width: 700px;
+    min-width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+
 a{
     color: rgb(53, 53, 250);
 }
