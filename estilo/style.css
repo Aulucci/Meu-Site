@@ -31,13 +31,15 @@ h4{
     border-radius: 30%;
     margin: auto;
     display: block; 
+    width: 40%;
+
 }
 main{
     background-color: rgba(255, 255, 255, 0.719);
     margin: auto;
     text-align: justify;
     max-width: 700px;
-    min-width: 400px;
+    min-width: 300px;
     padding: 10px;
     border-radius: 10px;
     color: black;
@@ -57,7 +59,7 @@ footer{
     margin: auto;
     text-align: justify;
     max-width: 700px;
-    min-width: 400px;
+    min-width:300px;
     padding: 10px;
     border-radius: 10px;
     color: black;
