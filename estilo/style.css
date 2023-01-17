@@ -2,38 +2,47 @@
     font-family: Arial, Helvetica, sans-serif;
     
 }
+
+
 body{
     background-color: rgb(238, 209, 154);
     
 }
+
 h1{
     text-align: center;
     background-image: linear-gradient(90deg, rgb(240, 175, 114),rgb(235, 204, 168));
     border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.288);
 }
+
 h2{
     background-image: linear-gradient(90deg, rgb(240, 175, 114),rgb(235, 204, 168));
     border-radius: 10px;
     padding: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.288);
 }
+
 h3{
     background-image: linear-gradient(90deg, rgb(240, 175, 114),rgb(235, 204, 168));
     border-radius: 10px;
     padding: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.288);
 }
-h4{
-    background-image: linear-gradient(90deg, rgb(240, 175, 114),rgb(235, 204, 168));
-    border-radius: 10px;
-    padding: 10px;
-    
+
+
+p{
+    margin: 15px 0px;
+    text-indent: 30px;
+    line-height: 1em;
 }
 #foto{
     border-radius: 30%;
     margin: auto;
     display: block; 
-    width: 40%;
-
+    padding: 20px;
 }
+
 main{
     background-color: rgba(255, 255, 255, 0.719);
     margin: auto;
@@ -44,16 +53,31 @@ main{
     border-radius: 10px;
     color: black;
     margin-bottom: 10px;
-}
-.imagem{
-    width: 20%;
-    padding: 10px;
-    border-radius: 20%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.295);
 }
 
 a{
     color: rgb(53, 53, 250);
+    font-weight: bold;
 }
+
+.imagem{
+
+    width: 20%;
+    padding: 10px;
+    border-radius: 20%;
+    transition-duration: 0.5s;
+    
+    
+}
+.imagem:hover{
+    padding: 5px;
+    box-shadow: 0px  0px 5px rgba(0, 0, 0, 0.473) ;
+    
+}
+
+
+
 footer{
     background-color: rgba(255, 255, 255, 0.719);
     margin: auto;
