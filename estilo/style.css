@@ -5,7 +5,9 @@
 
 
 body{
+    background-image: url(../imagens/pattern004.png);
     background-color: rgb(238, 209, 154);
+    background-attachment: fixed;
     
 }
 
