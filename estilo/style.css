@@ -9,6 +9,7 @@ body{
     background-color: rgb(238, 209, 154);
     background-attachment: fixed;
     
+    
 }
 
 h1{
@@ -45,6 +46,7 @@ p{
     padding: 20px;
 }
 
+
 main{
     background-color: rgba(255, 255, 255, 0.719);
     margin: auto;
@@ -56,6 +58,7 @@ main{
     color: black;
     margin-bottom: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.295);
+   
 }
 
 a{
@@ -66,15 +69,19 @@ a{
 .imagem{
 
     width: 20%;
-    padding: 10px;
-    border-radius: 20%;
-    transition-duration: 0.5s;
+    margin: 5px;
+    padding: px;
+    border-radius: 40%;
+    transition-duration: 0.3s;
+    box-sizing: border-box;
     
     
 }
 .imagem:hover{
-    padding: 5px;
-    box-shadow: 0px  0px 5px rgba(0, 0, 0, 0.473) ;
+    padding: px;
+    box-shadow: -5px  5px 10px rgba(0, 0, 0, 0.288) ;
+    transform: translate(3px, -5px);
+    
     
 }
 
