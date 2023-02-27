@@ -56,10 +56,12 @@ main{
     padding: 10px;
     border-radius: 10px;
     color: black;
-    margin-bottom: 15px;
+    margin-bottom: 7px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.295);
+    
    
 }
+
 
 a{
     color: rgb(53, 53, 250);
@@ -77,15 +79,15 @@ i{
 
 }
 
-#azul{
+.azul{
     color: rgb(42, 42, 252);
 }
 
-#rosa{
+.rosa{
     color: rgb(252, 0, 252);
 }
 
-#verde{
+.verde{
     color: green;
 }
 
@@ -109,10 +111,10 @@ i{
 }
 
 
-
 footer{
     background-color: rgba(255, 255, 255, 0.719);
     margin: auto;
+    margin-top: 7px;
     text-align: justify;
     max-width: 700px;
     min-width: 400px;
